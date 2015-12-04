@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:'Microsoft Yahei',sans-serif;
+}
+p,a {
+    color: #fff;
+}
+p {
+    cursor: default;
+}
+a {
+    text-decoration: none;
+}
+.view {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #68CDD5;
+}
+/*title*/
+.title{
+    position: relative;
+    background-color: #22292C;
+}
+.img a{
+    width:100%;
+}
+.back {
+    display: inline-block;
+    width: 3.125%;
+    max-width:20px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+.back img {
+    width: 100%;
+}
+.title a {
+    font-size: 2.6rem;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+.more {
+    width: 5.78125%;
+    max-width: 37px;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+.more img {
+    width: 100%;
+}
+.title p{
+    display: inline-block;
+    width:100%;
+    margin: 15px 0;
+    font-size: 400%;
+    text-align: center;
+}
+/*main*/
+.main{
+    height: 768px;
+    position: relative;
+}
+.back1{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+
+}
+.logo{
+    display: block;
+    position: relative;
+    top: 15%;
+    margin: 0 auto;
+}
+.content{
+    font-size: 3rem;
+    position: relative;
+    margin: 0 7rem;
+    top: 25%;
+}
+.ico {
+    position: relative;
+    top: 40%;
+}
+.ico p {
+    font-size: 2.4rem;
+}
+.ico div {
+    display: inline-block;
+    text-align: center;
+}
+.group {
+    position: relative;
+    left: 20%;
+}
+.grape {
+    position: relative;
+    left: 35%;
+}
